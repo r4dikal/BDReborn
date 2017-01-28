@@ -232,7 +232,7 @@ end
 end
 
 local function run(msg, matches)
- if tonumber(msg.sender_user_id_) == 157059515 then --Put Your ID
+ if tonumber(msg.sender_user_id_) == 280455102 then --Put Your ID
 if matches[1] == "visudo" then
 if not matches[2] and tonumber(msg.reply_to_message_id_) ~= 0 then
     tdcli_function ({
